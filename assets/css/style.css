@@ -358,6 +358,151 @@
             margin-top: 20px;
             text-align: end;
         }
+        .profile-section {
+            padding: 80px 0;
+        }
+
+        .nav-tabs .nav-link {
+            color: #495057;
+        }
+
+        .nav-tabs .nav-link.active {
+            color: #007bff;
+            border-color: #007bff;
+        }
+
+        .tab-content {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .update-btn {
+            width: 150px;
+        }
+
+        .orders-table {
+            margin-top: 20px;
+        }
+        
+        .invoice-container {
+            width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .invoice-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .company-logo img {
+            max-width: 100px;
+            height: auto;
+        }
+
+        .order-info {
+            text-align: right;
+        }
+
+        .order-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .invoice-details {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .address-details {
+            max-width: 300px;
+        }
+
+        .order-items-table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+
+        .order-items-table th,
+        .order-items-table td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .order-total {
+            margin-top: 20px;
+            text-align: right;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .print-btn {
+            margin-top: 20px;
+            text-align: right;
+        }
+        .thank-you-container {
+            text-align: center;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .thank-you-message {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .order-details {
+            margin-bottom: 20px;
+        }
+
+        .order-details p {
+            margin: 5px 0;
+        }
+
+        .return-home-link {
+            display: inline-block;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: salmon;
+            color: #fff;
+            border-radius: 5px;
+        }
+        .form-container {
+            width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .sign-up-link {
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+        }
 @media(max-width:450px){
     .caption-area {
         max-width: 259px;
